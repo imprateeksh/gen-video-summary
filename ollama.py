@@ -1,7 +1,7 @@
 import requests
 
 URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "mistral" # "llama3.1"
+MODEL_NAME = "llama3.1" # "mistral"
 ROLE = "user"
 
 def get_results(query: str) -> str:
